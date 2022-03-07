@@ -30,5 +30,6 @@ LOCAL_C_FLAGS = -fvisibility=hidden -Wall -Werror
 LOCAL_SHARED_LIBRARIES := libcrypto liblog libMcClient libnativehelper
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+LOCAL_VENDOR_MODULE := true
 
 include $(BUILD_SHARED_LIBRARY)
